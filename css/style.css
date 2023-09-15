@@ -1138,6 +1138,7 @@ body::-webkit-scrollbar {
     margin-top: 8px;
 }
 
+.ft_R .content li a,
 .ft_R .content li a:visited {
     color: black;
 }
