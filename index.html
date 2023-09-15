@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Prada</title>
+</head>
+
+<body>
+
+    <div id="wrap">
+        <div id="header">
+            <div class="gnb">
+                <a href="index.html">
+                    <div class="logo"><img src="./img/logo.png" alt="Prada 로고"></div>
+                </a>
+                <div class="icons">
+                    <div class="search_bx">
+                        <form action="">
+                            <input type="text" placeholder="Prada" id="search">
+                            <i class="search_icon"><img src="./img/search-icon.png" alt="검색"></i>
+                        </form>
+                    </div>
+                    <div class="person_bx">
+                        <i><img src="./img/person-icon.png" alt="로그인"></i>
+                        <div class="person_login">
+                            <p><span>로그인</span>을 하시면 빠른 결제가 가능합니다.</p>
+                        </div>
+                    </div>
+                    <div class="heart_bx">
+                        <i class="heart_icon"><img src="./img/heart-icon.png" alt="위시리스트"></i>
+                        <div class="wish_bx">
+                            <p>위시리스트/장바구니가 비었습니다.</p>
+                        </div>
+                    </div>
+
+
+                    <div id="bars">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul id="pagination">
+            <li class="page bags_bx">
+                <div class="circle bags_c C_active"></div>
+                <p class="active">Bags</p>
+            </li>
+            <li class="page RtW_bx">
+                <div class="circle RtW_c"></div>
+                <p>Ready to Wear</p>
+            </li>
+            <li class="page shoes_bx">
+                <div class="circle shoes_c"></div>
+                <p>Shoes</p>
+            </li>
+            <li class="page galleria_bx">
+                <div class="circle galleria_c"></div>
+                <p>Galleria</p>
+            </li>
+            <li class="page news_bx">
+                <div class="circle news_c"></div>
+                <p>News</p>
+            </li>
+        </ul>
+        <div id="login">
+            <div class="login_close">
+            </div>
+            <div class="login_inr">
+                <div class="login_bx">
+                    <div class="content">
+                        <h1>로그인</h1>
+                        <form action="">
+                            <div class="input_con">
+                                <input type="text" required class="input_id">
+                                <p class="placeholder">아이디</p>
+                            </div>
+                            <div class="input_con">
+                                <input type="text" required class="input_password">
+                                <p class="placeholder">비밀번호</p>
+                            </div>
+                            <div class="find-con">
+                                <p>아이디 찾기</p>
+                                <p>비밀번호 찾기</p>
+                                <p id="join-link">회원가입</p>
+                            </div>
+                            <button type="submit" class="login_btn">
+                                <p>로그인</p>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div class="Left">
+                <ul class="content">
+                    <li><span>여성</span></li>
+                    <li><span>남성</span></li>
+                    <li><span>백</span></li>
+                    <li><span>기프트</span></li>
+                    <li><span>리네아 로사</span></li>
+                    <li><a href="index.html"><span>PRADASPHERE</span></a></li>
+                </ul>
+            </div>
+            <div class="Right">
+                <div class="R_menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>컬렉션</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>신상품</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>여성 선물</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 트로피코</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>AC Factory</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>액세서리</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>지갑 및 카드홀더</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>하이테크 액세서리 및 키체인물</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>모자 및 장갑</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>선글라스</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>헤어 액세서리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>벨트</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>실크 및 스카프</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>향수</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>레디 투 웨어</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>드레스</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>니트웨어</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>셔츠 및 탑</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>스커트</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>팬츠 및 반바지</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>아우터</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>재킷 및 코트</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>데님</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>티셔츠 및 스웨트셔츠</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>가죽의류</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>파자마 및 언더웨어</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>라이프스타일 액세서리</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>반려동물 액세서리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>스포츠 및 레저</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>가방</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>숄더백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>탑 핸들</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>토트백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>미니백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>백팩</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>브리프케이스</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>주얼리</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>파인 주얼리 컬렉션</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>실버 주얼리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>패션 주얼리</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>슈즈</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>로퍼</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>샌들</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>펌프스 및 발레리나</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>슬리퍼 및 뮬</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>레이스업</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>스니커즈</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>앵글 부츠 및 부츠</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>에스파드리유</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>트래블</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>파우치 및 트래블 액세서리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>트래블 백</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="R_menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>컬렉션</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>신상품</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>여성 선물</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 트로피코</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 리네아 로사</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>AC Factory</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>액세서리</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>지갑 및 카드홀더</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>하이테크 액세서리 및 키체인물</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>모자 및 장갑</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>선글라스</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>벨트</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>맞춤형 벨트</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>실크 및 스카프</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>타이 및 보우타이</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>향수</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>레디 투 웨어</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>재킷 및 코트</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>셔츠</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>데님</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>아우터</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>니트웨어</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>티셔츠 및 폴로 셔츠</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>가죽 의류</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>수트</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>팬츠 및 버뮤다</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>조깅복 및 스웨트 셔츠</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>라이프스타일 액세서리</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>반려동물 액세서리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>스포츠 및 레저</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>가방</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>메신저백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>백팩 및 벨트백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>토트백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>브리프케이스</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>클러치</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>주얼리</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>파인 주얼리 컬렉션</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>실버 주얼리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>패션 주얼리</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>슈즈</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>스니커즈</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>로퍼</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>샌들</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>레이스업</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>부츠</p>
+                                </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>트래블</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>트래블 백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>러기지 앤 트롤리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>파우치 및 트래블 액세서리</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="R_menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>컬렉션</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>프라다 갤러리아</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 리에디션</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 아르케</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 클레오</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 심볼</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>프라다 문</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>여성 백</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>숄더백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>탑 핸들</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>토트백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>미니백</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>백팩</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>브리프케이스</p>
+                                </a></li>
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="R_menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>여성 선물</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>소중한 선물</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>새로운 에센셜</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>남성 선물</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>소중한 선물</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>새로운 에센셜</p>
+                                </a></li>
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="R_menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <h2>남성 리네아 로사</h2>
+                            </li>
+                            <li><a href="index.html">
+                                    <p>레디 투 웨어</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>슈즈</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>가방 및 액세서리</p>
+                                </a></li>
+                            <li><a href="index.html">
+                                    <p>선글라스</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="m_menu">
+            <div class="m_menuInr">
+                <div class="m_menuIcons">
+                    <div class="mSearch_bx">
+                        <form action="">
+                            <input type="text" placeholder="Prada" id="msearch">
+                            <i class="msearch_icon"><img src="./img/search-icon.png" alt="모바일검색"></i>
+                        </form>
+                    </div>
+                    <div class="m_menuRight">
+                        <div class="mPerson_bx">
+                            <i><img src="./img/person-icon.png" alt="모바일로그인"></i>
+                            <p>로그인</p>
+                        </div>
+                        <div class="mHeart_bx">
+                            <i class="heart_icon"><img src="./img/heart-icon.png" alt="모바일위시리스트"></i>
+                            <p>위시리스트</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m_menuBx">
+                    <ul class="tit_menu">
+                        <li>
+                            <p>여성</p>
+                            <div class="arrow"></div>
+                            <ul class="sub_menu">
+                                <li>
+                                    <p>컬렉션</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>신상품</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>여성 선물</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 트로피코</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>AC Factory</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>레디 투 웨어</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>드레스</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>니트웨어</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>셔츠 및 탑</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>스커트</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>팬츠 및 반바지</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>아우터</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>재킷 및 코트</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>데님</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>티셔츠 및 스웨트 셔츠</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>가죽의류</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>파자마 및 언더웨어</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>가방</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>숄더백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>탑 핸들</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>토트백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>미니백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>백팩</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>브리프케이스</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>슈즈</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>로퍼</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>샌들</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>펌프스 및 발레리나</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>슬리퍼 및 뮬</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>레이스업</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>스니커즈</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>앵글 부츠 및 부츠</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>에스파드리유</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>액세서리</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>지갑 및 카드홀더</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>하이테크 액세서리 및 키체인</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>모자 및 장갑</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>선글라스</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>헤어 액세서리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>벨트</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>실크 및 스카프</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>향수</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>라이프스타일 액세서리</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>반려동물 액세서리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>스포츠 및 레저</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>주얼리</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>파인 주얼리 컬렉션</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>실버 주얼리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>패션 주얼리</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>트래블</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>파우치 및 트래블 액세서리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>트래블 백</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>남성</p>
+                            <div class="arrow"></div>
+                            <ul class="sub_menu">
+                                <li>
+                                    <p>컬렉션</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>신상품</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>남성 선물</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 트로피코</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 리네아 로사</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>AC Factory</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>레디 투 웨어</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>재킷 및 코트</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>셔츠</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>데님</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>아우터</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>니트웨어</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>티셔츠 및 폴로 셔츠</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>가죽의류</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>수트</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>팬츠 및 버뮤다</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>조깅복 및 스웨트 셔츠</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>가방</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>메신저백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>백팩 및 벨트백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>토트백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>브리프케이스</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>클러치</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>슈즈</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>스니커즈</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>로퍼</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>샌들</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>레이스업</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>부츠</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>액세서리</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>지갑 및 카드홀더</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>하이테크 액세서리 및 키체인</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>모자 및 장갑</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>선글라스</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>벨트</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>맞춤형 벨트</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>실크 및 스카프</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>타이 및 보우타이</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>향수</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>라이프스타일 액세서리</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>반려동물 액세서리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>스포츠 및 레저</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>주얼리</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>파인 주얼리 컬렉션</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>실버 주얼리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>패션 주얼리</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>트래블</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>트래블 백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>러기지 및 트롤리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>파우치 및 트래블 액세서리</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>백</p>
+                            <div class="arrow"></div>
+                            <ul class="sub_menu">
+                                <li>
+                                    <p>컬렉션</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>프라다 갤러리아</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 리에디션</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 아르케</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 클레오</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 심볼</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>프라다 문</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>여성백</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>숄더 백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>탑 핸들</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>토트백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>미니백</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>백팩</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>브리프케이스</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>기프트</p>
+                            <div class="arrow"></div>
+                            <ul class="sub_menu">
+                                <li>
+                                    <p>여성 선물</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>소중한 선물</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>새로운 에센셜</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>남성 선물</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>소중한 선물</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>새로운 에센셜</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>리네아 로사</p>
+                            <div class="arrow"></div>
+                            <ul class="sub_menu">
+                                <li>
+                                    <p>남성 리네아 로사</p>
+                                    <div class="arrow"></div>
+                                    <ul class="detail_menu">
+                                        <li><a href="index.html">
+                                                <p>레디 투 웨어</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>슈즈</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>가방 및 액세서리</p>
+                                            </a></li>
+                                        <li><a href="index.html">
+                                                <p>선글라스</p>
+                                            </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html">
+                                <p>PRADASPHERE</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper mySwiper" id="section1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide s1_1">
+                    <video src="./img/s1_bg.mp4" playsinline autoplay data-keepplaying loop muted></video>
+                    <div class="s1_inr">
+                        <div class="s1_ctBx">
+                            <h1>여성백</h1>
+                            <p>아카이브 볼륨과 부드러운 라인은 새로운 프라다 아르케 백의 모던한 디자인에 영감을 줍니다.</p>
+                            <a href="index.html">
+                                <div class="buyBx">
+                                    <p>구매하기</p>
+                                    <div class="buyIcon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide s1_2">
+                    <div class="s1_2inr">
+                        <div class="s1_2blk">
+                            <div class="s1_2ct">
+                                <h1>프라다 아르케 블랙 백</h1>
+                                <a href="index.html">
+                                    <div class="buyBx">
+                                        <p>구매하기</p>
+                                        <div class="buyIcon">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="s1_2brw">
+                            <div class="s1_2ct">
+                                <h1>프라다 아르케 코냑 백</h1>
+                                <a href="index.html">
+                                    <div class="buyBx">
+                                        <p>구매하기</p>
+                                        <div class="buyIcon">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="s1_2wht">
+                            <div class="s1_2ct">
+                                <h1>프라다 아르케 화이트 백</h1>
+                                <a href="index.html">
+                                    <div class="buyBx">
+                                        <p>구매하기</p>
+                                        <div class="buyIcon">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide s1_3">
+                    <div class="s1_inr">
+                        <div class="s1_ctBx">
+                            <h1>남성백</h1>
+                            <p>프라다 남성 백은 기능적 포켓 및 숄더 스트랩과 모던한 디자인으로 시선을 사로잡습니다.</p>
+                            <a href="index.html">
+                                <div class="buyBx">
+                                    <p>구매하기</p>
+                                    <div class="buyIcon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+
+        <div class="section" id="section2">
+            <div class="s2_inr">
+
+                <div class="L_s2">
+                    <div class="cover"></div>
+
+                    <div class="hover">
+                        <a href="index.html">
+                            <h1>여성 레디 투 웨어</h1>
+                            <div class="buyBx">
+                                <p>구매하기</p>
+                                <div class="buyIcon">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="R_s2">
+                    <div class="cover"></div>
+
+                    <div class="hover">
+                        <a href="index.html">
+                            <h1>남성 레디 투 웨어</h1>
+                            <div class="buyBx">
+                                <p>구매하기</p>
+                                <div class="buyIcon">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section" id="section3">
+            <div class="s3_inr">
+                <div class="L_s3">
+                    <div class="content" data-aos="fade-up" data-aos-duration="600" data-aos-offset="0">
+                        <h1>남성 슈즈</h1>
+                        <a href="index.html">
+                            <div class="buyBx">
+                                <p>구매하기</p>
+                                <div class="buyIcon">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="R_s3">
+                    <div class="content" data-aos="fade-up" data-aos-duration="600" data-aos-offset="0">
+                        <h1>여성 슈즈</h1>
+                        <a href="index.html">
+                            <div class="buyBx">
+                                <p>구매하기</p>
+                                <div class="buyIcon">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section" id="section4">
+            <div class="s4_bg">
+                <video src="./img/s4_bg.mp4" playsinline autoplay data-keepplaying loop muted></video>
+            </div>
+            <div class="cover"></div>
+            <div class="s4_inr">
+                <div class="s4_ctBx">
+                    <h1>프라다 갤러리아</h1>
+                    <p class="des">프라다 갤러리아 핸드백을 8가지 익스클루시브 리미티드 에디션으로 선보입니다. 특별한 사피아노 가죽에 프린트된 생동감 넘치는 기하학 패턴 장식을 만나
+                        보세요. 가장 클래식한 스타일부터 최고급 가죽으로 선보이는 MTO 주문 제작 디자인까지 영원한 프라다 아이콘의 전체 컬렉션을 확인해 보세요.</p>
+                    <a href="index.html">
+                        <div class="buyBx">
+                            <p>구매하기</p>
+                            <div class="buyIcon">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section" id="section5">
+            <div class="s5_inr">
+                <div class="s5_slide">
+                    <div class="sl1_img" data-aos="fade-up" data-aos-duration="600"><img src="./img/s5_1.jpg" alt="">
+                    </div>
+                    <div class="sl1_ctBx">
+                        <h2 data-aos="fade-up" data-aos-duration="600" data-aos-offset="0">Pradasphere _ News</h2>
+                        <h1 data-aos="fade-up" data-aos-duration="600" data-aos-offset="0">FW 2023 Campaign</h1>
+                        <a href="index.html">
+                            <div class="buyBx" data-aos="fade-up" data-aos-duration="600" data-aos-offset="0">
+                                <p>살펴보기</p>
+                                <div class="buyIcon">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="ft_inr">
+                <div class="ft_L">
+                    <div class="ft_logo">
+                        <img src="./img/ft_logo.png" alt="푸터로고">
+                    </div>
+                    <div class="content">
+                        <div class="c_inr">
+                            <p>회사명: 프라다 코리아 (유)</p>
+                            <p>대표자: 최문영</p>
+                            <p>사업자등록번호: 213-86-18599</p>
+                        </div>
+                        <div class="c_inr">
+                            <p>주소: 서울시 강남구 압구정로 439 06010</p>
+                            <p>고객센터 서비스 센터: 080-522-7199</p>
+                        </div>
+                        <div class="c_inr">
+                            <p>이메일: client.service.kr@prada.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ft_R">
+                    <ul class="content">
+                        <li>
+                            <p class="c_title">무엇을 도와드릴까요?</p>
+                        </li>
+                        <li>
+                            <p>전화문의 <span class="bold">080-522-7199</span></p>
+                        </li>
+                        <li><a href="index.html">
+                                <p>문의하기</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>FAQ</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>사이트맵</p>
+                            </a></li>
+                    </ul>
+                    <ul class="content">
+                        <li>
+                            <p class="c_title">익스클루시브 서비스</p>
+                        </li>
+                        <li><a href="index.html">
+                                <p>프라다 서비스</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>주문추적</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>반품</p>
+                            </a></li>
+                    </ul>
+                    <ul class="content">
+                        <li>
+                            <p class="c_title">회사</p>
+                        </li>
+                        <li><a href="index.html">
+                                <p>Fondazione Prada</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>Prada Group</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>Luna Rossa</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>사회적 책임</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>채용정보</p>
+                            </a></li>
+                    </ul>
+                    <ul class="content">
+                        <li>
+                            <p class="c_title">법적 고지 및 이용 약관</p>
+                        </li>
+                        <li><a href="index.html">
+                                <p>이용약관</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>개인정보 처리방침</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>쿠키 정책</p>
+                            </a></li>
+                        <li><a href="index.html">
+                                <p>판매 약관</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/1b2ad0e55e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/1b2ad0e55e.js" crossorigin="anonymous"></script>
+    <script src="./js/easing.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
