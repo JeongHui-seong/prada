@@ -16,6 +16,7 @@ input:focus {
 
 body,html {
     font-family: 'Pretendard Variable', Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
