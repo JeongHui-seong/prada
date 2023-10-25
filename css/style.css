@@ -24,6 +24,13 @@ body::-webkit-scrollbar {
 }
 
 
+label {
+    display: block;
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
 #header {
     width: 100%;
     position: fixed;
