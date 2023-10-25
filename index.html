@@ -22,6 +22,7 @@
                 <div class="icons">
                     <div class="search_bx">
                         <form action="#">
+                            <label for="search">검색</label>
                             <input type="text" placeholder="Prada" id="search">
                             <i class="search_icon"><img src="./img/search-icon.png" alt="검색"></i>
                         </form>
@@ -79,11 +80,13 @@
                         <h1>로그인</h1>
                         <form action="#">
                             <div class="input_con">
-                                <input type="text" required class="input_id">
+                                <label for="iden">아이디</label>
+                                <input type="text" required class="input_id" id="iden">
                                 <p class="placeholder">아이디</p>
                             </div>
                             <div class="input_con">
-                                <input type="text" required class="input_password">
+                                <label for="pass">비밀번호</label>
+                                <input type="text" required class="input_password" id="pass">
                                 <p class="placeholder">비밀번호</p>
                             </div>
                             <div class="find-con">
@@ -581,6 +584,7 @@
                 <div class="m_menuIcons">
                     <div class="mSearch_bx">
                         <form action="#">
+                            <label for="msearch">모바일검색</label>
                             <input type="text" placeholder="Prada" id="msearch">
                             <i class="msearch_icon"><img src="./img/search-icon.png" alt="모바일검색"></i>
                         </form>
